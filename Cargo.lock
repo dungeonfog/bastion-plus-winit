@@ -81,9 +81,8 @@ checksum = "f8aac770f1885fd7e387acedd76065302551364496e46b3dd00860b2f8359b9d"
 
 [[package]]
 name = "bastion"
-version = "0.4.0"
-source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "4b7405f021fbb8ed70bccb3cd387b5e785c0e51367660bc92289cbc652a337c8"
+version = "0.4.1-alpha.0"
+source = "git+https://github.com/bastion-rs/bastion.git?branch=igni/ci_cd_features#4d0611e393d0e3bb5d817d2b4c7ea61b3c0ace7b"
 dependencies = [
  "anyhow",
  "async-mutex",
@@ -573,9 +572,9 @@ dependencies = [
 
 [[package]]
 name = "libc"
-version = "0.2.73"
+version = "0.2.74"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "bd7d4bd64732af4bf3a67f367c27df8520ad7e230c5817b8ff485864d80242b9"
+checksum = "a2f02823cf78b754822df5f7f268fb59822e7296276d3e069d8e8cb26a14bd10"
 
 [[package]]
 name = "libloading"

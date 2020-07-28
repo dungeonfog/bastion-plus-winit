@@ -7,7 +7,7 @@ edition = "2018"
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
-bastion = "0.4"
+bastion = { git = "https://github.com/bastion-rs/bastion.git", branch = "igni/ci_cd_features" }
 winit = "0.22"
 log = "0.4"
 fern = "0.6"
