@@ -82,7 +82,7 @@ checksum = "f8aac770f1885fd7e387acedd76065302551364496e46b3dd00860b2f8359b9d"
 [[package]]
 name = "bastion"
 version = "0.4.1-alpha.0"
-source = "git+https://github.com/bastion-rs/bastion.git?branch=igni/ci_cd_features#4d0611e393d0e3bb5d817d2b4c7ea61b3c0ace7b"
+source = "git+https://github.com/bastion-rs/bastion.git#7a5826ba6f5d7017f5fd59b11dba3f5cc4c968ba"
 dependencies = [
  "anyhow",
  "async-mutex",
